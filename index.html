@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Tasks List</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/global.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="new-task-container">
+        <div class="input-wrapper">
+          <input
+            type="text"
+            class="new-task-input"
+            placeholder="Digite a tarefa ser feita..."
+          />
+          <button class="new-task-button">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+        <span class="error-message hidden"
+          >* Você não pode criar uma tarefa vazia</span
+        >
+      </div>
+      <div class="tasks-list"></div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/7bdbed9c82.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
