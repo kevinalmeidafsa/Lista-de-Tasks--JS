@@ -114,8 +114,16 @@ body {
 }
 
 .tasks-content i {
+  padding: 0.75rem;
+  border-radius: 50%;
   font-size: 1rem;
   color: #e53935;
+}
+
+.tasks-content i:hover {
+  transition: all 300ms ease-in-out;
+  font-size: 1rem;
+  background-color: #e5383525;
   cursor: pointer;
 }
 
