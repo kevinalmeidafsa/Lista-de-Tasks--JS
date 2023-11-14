@@ -127,6 +127,7 @@ body {
   justify-content: start;
   gap: 1rem;
   max-height: 50vh;
+  padding-bottom: 1.5rem;
   overflow-y: auto;
 }
 .task-text {
